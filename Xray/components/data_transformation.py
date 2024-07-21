@@ -7,7 +7,7 @@ from torch.utils.data import DataLoader, Dataset
 from torchvision import transforms
 from torchvision.datasets import ImageFolder
 
-from Xray.entity.artifact_entity import (
+from Xray.entity.artifact import (
     DataIngestionArtifact,
     DataTransformationArtifact,
 )
